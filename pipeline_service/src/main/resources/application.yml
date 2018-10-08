@@ -1,0 +1,10 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: pipeline-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
